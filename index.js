@@ -8,7 +8,7 @@
 *
 **/
 
-function SHA256(s): string {
+function SHA256(s) {
 
   var chrsz = 8;
   var hexcase = 0;
