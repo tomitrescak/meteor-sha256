@@ -1,0 +1,15 @@
+{
+  "name": "meteor-sha256",
+  "version": "1.0.0",
+  "description": "SHS256 implementation from Meteor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Meteor",
+    "sha256"
+  ],
+  "author": "Tomi Trescak",
+  "license": "MIT"
+}
