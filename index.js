@@ -8,7 +8,7 @@
 *
 **/
 
-function SHA256(s) {
+module.exports.sha256 = function SHA256(s) {
 
   var chrsz = 8;
   var hexcase = 0;
@@ -131,5 +131,3 @@ function SHA256(s) {
   s = Utf8Encode(s);
   return binb2hex(core_sha256(str2binb(s), s.length * chrsz));
 }
-
-module.exports = SHA256;

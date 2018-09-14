@@ -1,1 +1,1 @@
-export default function sha256(obj: string): string;
+export function sha256(obj: string): string;
